@@ -1,0 +1,153 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MsAppUserApplication<ms-app-user>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.glic.app.users.MsAppUserApplication",
+            "projectName": "ms-app-user",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=50542 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=ms-app-user"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsCommonClientsApplication<ms-common-clients>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.glic.clients.MsCommonClientsApplication",
+            "projectName": "ms-common-clients",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=51500 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=ms-common-clients"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CrCommonOrchestrateApplication<cr-common-orchestrate>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.glic.orchestrate.CrCommonOrchestrateApplication",
+            "projectName": "cr-common-orchestrate",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsCommonBlocklistApplication<ms-common-blocklist>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.glic.blocklist.MsCommonBlocklistApplication",
+            "projectName": "ms-common-blocklist",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=52052 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=ms-common-blocklist"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsCommonHierarchyApplication<ms-common-hierarchy>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.glic.hierarchy.MsCommonHierarchyApplication",
+            "projectName": "ms-common-hierarchy",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=52199 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=ms-common-hierarchy"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsCommonParamsApplication<ms-common-params>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.glic.params.MsCommonParamsApplication",
+            "projectName": "ms-common-params",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsCommonSalesprintApplication<ms-common-salesprint>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.glic.salesprint.MsCommonSalesprintApplication",
+            "projectName": "ms-common-salesprint",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=52646 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=ms-common-salesprint"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsCommonUserApplication<ms-common-user>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.glic.users.MsCommonUserApplication",
+            "projectName": "ms-common-user",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsSalesPlanApplication<ms-sales-plan>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.glic.salesplan.MsSalesPlanApplication",
+            "projectName": "ms-sales-plan",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=57001 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=ms-sales-plan"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsTransferChargesApplication<ms-transfer-charges>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.glic.charges.MsTransferChargesApplication",
+            "projectName": "ms-transfer-charges",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=57313 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=ms-transfer-charges"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsTransferCoreApplication<ms-transfer-core>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.glic.transfer.MsTransferCoreApplication",
+            "projectName": "ms-transfer-core",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=58329 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=ms-transfer-core"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsTransferQuotaApplication<ms-transfer-quota>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.glic.quota.MsTransferQuotaApplication",
+            "projectName": "ms-transfer-quota",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=58574 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=ms-transfer-quota"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsTrxDistributionApplication<ms-trx-distribution>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.glic.distribution.MsTrxDistributionApplication",
+            "projectName": "ms-trx-distribution",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SuperflexMappGatewayApplication<superflex-mapp-gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.glic.mappgateway.SuperflexMappGatewayApplication",
+            "projectName": "superflex-mapp-gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

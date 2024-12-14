@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/common-dtos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cr-common-orchestrate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-app-user" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-common-blocklist" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-common-clients" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-common-hierarchy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-common-params" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-common-salesprint" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-common-user" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-sales-plan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-transfer-charges" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-transfer-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-transfer-quota" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-trx-distribution" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/superflex-builder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/superflex-feign-clients" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/superflex-mapp-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/superflex-utils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/superflex-utils-security" vcs="Git" />
+  </component>
+</project>

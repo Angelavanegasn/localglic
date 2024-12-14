@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for superflex-utils" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+        </processorPath>
+        <module name="superflex-utils" />
+      </profile>
+      <profile name="Annotation profile for superflex-builder" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="mapstruct.suppressGeneratorTimestamp" value="true" />
+        <option name="mapstruct.verbose" value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+        </processorPath>
+        <module name="superflex-mapp-gateway" />
+        <module name="cr-common-orchestrate" />
+        <module name="ms-common-salesprint" />
+      </profile>
+      <profile name="Annotation profile for ms-app-user" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="mapstruct.suppressGeneratorTimestamp" value="true" />
+        <option name="mapstruct.verbose" value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+        </processorPath>
+        <module name="ms-app-user" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common-dtos" options="-parameters" />
+      <module name="cr-common-orchestrate" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.verbose=true" />
+      <module name="ms-app-user" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.verbose=true" />
+      <module name="ms-common-blocklist" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.verbose=true" />
+      <module name="ms-common-clients" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.verbose=true" />
+      <module name="ms-common-hierarchy" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.verbose=true" />
+      <module name="ms-common-params" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.verbose=true" />
+      <module name="ms-common-salesprint" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.verbose=true" />
+      <module name="ms-common-user" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.verbose=true" />
+      <module name="ms-sales-plan" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.verbose=true" />
+      <module name="ms-transfer-charges" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.verbose=true" />
+      <module name="ms-transfer-core" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.verbose=true" />
+      <module name="ms-transfer-quota" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.verbose=true" />
+      <module name="ms-trx-distribution" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.verbose=true" />
+      <module name="superflex-feign-clients" options="-parameters" />
+      <module name="superflex-mapp-gateway" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.verbose=true" />
+      <module name="superflex-utils" options="-parameters" />
+      <module name="superflex-utils-security" options="-parameters" />
+    </option>
+  </component>
+</project>

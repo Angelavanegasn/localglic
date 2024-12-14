@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/common-dtos/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-app-user/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-sales-plan/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-common-user/pom.xml" />
+        <option value="$PROJECT_DIR$/superflex-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-common-params/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-transfer-core/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-common-clients/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-transfer-quota/pom.xml" />
+        <option value="$PROJECT_DIR$/superflex-builder/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-common-blocklist/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-common-hierarchy/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-transfer-charges/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-trx-distribution/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-common-salesprint/pom.xml" />
+        <option value="$PROJECT_DIR$/cr-common-orchestrate/pom.xml" />
+        <option value="$PROJECT_DIR$/superflex-mapp-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/superflex-feign-clients/pom.xml" />
+        <option value="$PROJECT_DIR$/superflex-utils-security/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
